@@ -5,6 +5,7 @@
 
 body{
     background-color: black;
+    padding: 0;
 }
 
 main{
@@ -25,10 +26,7 @@ main > h2{
 main > p{
     text-align: center;
 }
-main > img{
-    background-position: center center;
-}
-aside{
+section{
     background-color: orange;
     margin: 0px 20px;
     border-radius: 10px;
