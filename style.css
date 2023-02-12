@@ -9,9 +9,11 @@ body{
 }
 
 main{
+    min-width: 400px;
+    max-width: 1000px;
     background-color: white;
     color: black;
-    margin: 0px 250px;
+    margin: auto;
     border-radius: 10px;
     margin-bottom: 20px;
     padding-bottom: 15px;
@@ -19,12 +21,24 @@ main{
 
 main > h1{
     text-align: center;
+    padding-bottom: 100px ;
 }
 main > h2{
     text-align: center;
+    padding-bottom: 80px ;
 }
 main > p{
     text-align: center;
+}
+
+main.imagem{
+    padding: 100px 0px;
+}
+
+main#img1{
+    background-position: center center;
+    background-image: url('imagens/imagem.png');
+    background-repeat: no-repeat;
 }
 section{
     background-color: orange;
