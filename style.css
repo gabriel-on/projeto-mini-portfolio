@@ -21,24 +21,22 @@ main{
 
 main > h1{
     text-align: center;
-    padding-bottom: 100px ;
 }
 main > h2{
     text-align: center;
-    padding-bottom: 80px ;
 }
 main > p{
     text-align: center;
 }
 
-main.imagem{
-    padding: 100px 0px;
-}
-
-main#img1{
-    background-position: center center;
+#bola{
+    height: 150px;
+    width: 150px;
     background-image: url('imagens/imagem.png');
     background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    border-radius: 50%;
 }
 section{
     background-color: orange;
