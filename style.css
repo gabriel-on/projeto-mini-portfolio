@@ -76,7 +76,7 @@ section h2{
     background-color: var(--cor-3);
     color: white;
     margin: 0px;
-    padding: 10px 10px;
+    padding: 5px 10px;
     border-radius: 5px 20px 0px 0px;
 }
 section > ul{
