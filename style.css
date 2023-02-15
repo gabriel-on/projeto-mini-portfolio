@@ -79,7 +79,9 @@ section h2{
     border-radius: 5px 20px 0px 0px;
 }
 section > ul{
-    padding: 10px 30px;
+    list-style-position: inside;
+    columns: 2;
+    padding: 10px 10px;
 }
 
 section a{
@@ -93,7 +95,7 @@ section a:hover{
 }
 footer{
     background-color: var(--cor-1);
-    color: white;
+    color: black;
     text-align: center;
     padding: 5px;
 }
