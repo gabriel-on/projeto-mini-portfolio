@@ -15,36 +15,45 @@
 }
 
 body{
+    
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
-    line-height: 1.5em;
+    
 }
 
 main{
-    min-width: 400px;
-    max-width: 1000px;
+    min-width: 200px;
+    max-width: 800px;
     background-color: white;
     color: black;
     margin: auto;
     border-radius: 10px;
-    margin-bottom: 20px;
-    padding-bottom: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 main > h1{
+    background-image: linear-gradient(to top, var(--cor-3), var(--cor-0));
     text-align: center;
+    font-variant: small-caps;
     padding: 15px 0px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.274);
+    box-shadow: 4px 2px 7px rgba(0, 0, 0, 0.432);
 }
 main > h2{
     text-align: center;
     padding: 15px 0px;
 }
 main > p{
-    text-align: center;
+    text-align: justify;
+    text-indent: 10px;
+    line-height: 1.5em;
+    margin: 0px 20px;
 }
 
 #bola{
     margin: auto;
+    margin-bottom: 10px;
     height: 150px;
     width: 150px;
     background-image: url('imagens/imagem.png');
@@ -52,19 +61,22 @@ main > p{
     background-position: center;
     background-color: black;
     border-radius: 50%;
-    border: 2px solid red;
+    border: 2px solid var(--cor-0);
+    box-shadow: 4px 2px 7px rgba(0, 0, 0, 0.425);;
 }
 section{
     background-color: var(--cor-1);
-    border-radius: 10px;
+    border-radius: 5px 20px;
     margin: 0px 20px;
-    padding: 0px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.425);    
 }
 section h2{
     background-color: var(--cor-3);
+    color: white;
     margin: 0px;
     padding: 10px 10px;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 5px 20px 0px 0px;
 }
 section > ul{
     padding: 10px 30px;
@@ -76,10 +88,11 @@ section a{
 }
 
 section a:hover{
+    color: var(--cor-3);
     text-decoration: underline;
 }
 footer{
-    background-color: red;
+    background-color: var(--cor-1);
     color: white;
     text-align: center;
     padding: 5px;
