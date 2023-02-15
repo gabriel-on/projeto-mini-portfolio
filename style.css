@@ -1,11 +1,23 @@
+@charset "UTF-8";
+
+:root{
+    --cor-0: #FFBB4D;
+    --cor-1: #FF9D00;
+    --cor-2: #CC7E00;
+    --cor-3: #804F00;
+    --cor-4: #86817A;
+}
+
+
 *{
     margin: 0px;
     padding: 0px;
 }
 
 body{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: black;
-    padding: 0;
+    line-height: 1.5em;
 }
 
 main{
@@ -21,15 +33,18 @@ main{
 
 main > h1{
     text-align: center;
+    padding: 15px 0px;
 }
 main > h2{
     text-align: center;
+    padding: 15px 0px;
 }
 main > p{
     text-align: center;
 }
 
 #bola{
+    margin: auto;
     height: 150px;
     width: 150px;
     background-image: url('imagens/imagem.png');
@@ -37,15 +52,44 @@ main > p{
     background-position: center;
     background-color: black;
     border-radius: 50%;
+    border: 2px solid red;
 }
 section{
-    background-color: orange;
-    margin: 0px 20px;
+    background-color: var(--cor-1);
     border-radius: 10px;
+    margin: 0px 20px;
+    padding: 0px;
+}
+section h2{
+    background-color: var(--cor-3);
+    margin: 0px;
+    padding: 10px 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+section > ul{
+    padding: 10px 30px;
 }
 
+section a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section a:hover{
+    text-decoration: underline;
+}
 footer{
     background-color: red;
+    color: white;
     text-align: center;
     padding: 5px;
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
